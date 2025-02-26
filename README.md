@@ -1,6 +1,6 @@
 ﻿# Python225_Assignment2
 
-15.10.2. Exercise
+15.10.2. Exercise from https://allendowney.github.io/ThinkPython/chap15.html#exercises
 
 In the previous chapter, a series of exercises asked you to write a Date class and several functions that work with Date objects. Now let’s practice rewriting those functions as methods.
 
