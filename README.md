@@ -1,4 +1,6 @@
 ﻿# Python225_Assignment2
+ 
+This is for a class at BHCC;
 
 15.10.2. Exercise from https://allendowney.github.io/ThinkPython/chap15.html#exercises
 
