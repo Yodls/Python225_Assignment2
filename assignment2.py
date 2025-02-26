@@ -5,7 +5,7 @@ class Date:  # defines the Date class to represent a date
         self.day = day      # assigns the day to the day attribute
 
     def __str__(self):  # defines a method to return a string of the Date object
-        return f"{self.year:04d}-{self.month:02d}-{self.day:02d}"  # formats the date as "YYYY-MM-DD"
+        return f"{self.year:04d}-{self.month:02d}-{self.day:02d}"  # formats the date
 
     def to_tuple(self):  # defines a method to return the date as a tuple (year, month, day)
         return (self.year, self.month, self.day)  # returns the tuple for comparison
@@ -16,11 +16,9 @@ class Date:  # defines the Date class to represent a date
 
 # tests
 
-# creates a Date object representing June 22, 1933
 date1 = Date(1933, 6, 22)  # date1 is June 22, 1933
 print(date1)              # Print date1; should display "1933-06-22"
 
-# creates a Date object representing September 17, 1933
 date2 = Date(1933, 9, 17)  # date2 is September 17, 1933
 print(date2)              # Print date2; should display "1933-09-17"
 
